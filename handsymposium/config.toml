@@ -1,0 +1,206 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.com/"
+languageCode = "en-AU"
+title = "Bucks Hand Sypmposium 2020"
+
+# Metadata
+[params]
+  author = "P Garfjeld Roberts"
+  description = "T&O Registrar"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.png"
+  title = "Bucks Hand Symposium 2020"
+  description = "20th May at Stoke Mandeville Hospital, and 21st May at Kennedy Institute of Rheumatology"
+
+# Navigation section
+[params.nav]
+  mission = "Hand Symposium 2020"
+  services = "Sponsors"
+  team = "Speakers"
+  contact = "Register Your PLace"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "Welcome"
+    title = "A message from the Organising Committee"
+    subtitle = "It is humbling that despite our best efforts, we still struggle to recover satisfactory function for many of our patients with upper limb problems. The challenges are many and they are daunting. There is much to discover and the demand for innovative thinking has never been greater. This cannot be done in silos. We believe that in order to advance, we, the Hand Community, must get together from around the world and share our experiences and participate in open honest discussions."
+    description = "In this spirit, we invite you to the 3rd Bucks Hand Symposium, to be held on 20th – 21st May 2020. This year, we are honoured to feature a wonderful line up of speakers from around the globe and the UK. We will cover a wide range of complex upper limb conditions including Tetraplegia, chronic peripheral nerve injury, Raynaud’s and Dupuytren’s. Each speaker is an established leader in their respective field because they have pushed the boundaries and improved on the status quo. They will share their insights, knowledge and experience with us. Do join us and we look forward to seeing you in May!"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "dayone"
+    title = "Day One - Stoke Mandeville Hospital"
+    subtitle = "The first day is clinically focussed, hosted in Stoke Mandeville Hospital, followed by a dinner at Balliol College, Oxford"
+    description = "<p>Day One will feature clinical talks and will be held at the historic Stoke Mandeville Hospital, birthplace of the Paralympic Games. There will also be case-based discussions to stimulate thinking and generate high level discussions. Join us in welcoming our international speakers:</p><ul class='checked'><li>Raja Sabapathy</li><li>Jan Friden</li><li>David Chuang</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Register your place</a></p>"
+
+
+
+
+  [[params.mission.item]]
+    weight = 3
+    name = "daytwo"
+    title = "Day Two - Kennedy Institute of Rheumatology"
+    subtitle = "The second day is researched focussed, hosted at the Kennedy Centre, Oxford"
+    description = "<p>Day Two will be research-focussed and hosted at the Kennedy Institute of Rheumatology, birthplace of anti-TNF therapy, at the University of Oxford. It will provide an update of the most prominent research upper limb projects going at Oxford, ranging from translational lab research to clinical trials</p><ul class='checked'><li>Laboratory</li><li>Big Data</li><li>Translational Research</li><li>Multi-centre trials</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Register your place</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Sponsors"
+  description = "The 2020 Hand Symposium is generously supported by the following companies."
+
+  # [[params.services.item]]
+  #   icon = "icon-present"
+  #   title = "Web Development"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #
+  # [[params.services.item]]
+  #   icon = "icon-eye"
+  #   title = "Retina Ready"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #
+  # [[params.services.item]]
+  #   icon = "icon-paper-plane"
+  #   title = "Light Speed"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #
+  # [[params.services.item]]
+  #   icon = "icon-pencil"
+  #   title = "Copyrighting"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #
+  # [[params.services.item]]
+  #   icon = "icon-rocket"
+  #   title = "Load Fast"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #
+  # [[params.services.item]]
+  #   icon = "icon-support"
+  #   title = "Customer Support"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Acumed"
+    subtitle = "Innovation with purpose"
+    img = "images/acumed.png"
+
+  [[params.work.item]]
+    title = "Arthrex"
+    subtitle = "Helping surgeons treat their patients better"
+    img = "images/arthrex.png"
+
+  [[params.work.item]]
+    title = "BoneSupport AB"
+    subtitle = "Injectable bio-ceramic composite"
+    img = "images/bonesupport.jpg"
+
+  [[params.work.item]]
+    title = "Cook Medical"
+    subtitle = "Medical devices for minimally invasive procedures"
+    img = "images/cook.jpg"
+
+  [[params.work.item]]
+    title = "Evident"
+    subtitle = ""
+    img = "images/evident.png"
+
+  [[params.work.item]]
+    title = "Medartis"
+    subtitle = ""
+    img = "images/medartis.jpg"
+
+  [[params.work.item]]
+    title = "Mercian Surgical"
+    subtitle = "Precision Surgical Instruments"
+    img = "images/mercian.png"
+
+  [[params.work.item]]
+    title = "Severn Healthcare Technologies"
+    subtitle = ""
+    img = "images/severn.png"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet our international speakers"
+  description = "Each speaker is an established leader in their respective field because they have pushed the boundaries and improved on the status quo. They will share their insights, knowledge and experience with us."
+
+  [[params.team.item]]
+    name = "David Chuang"
+    position = "Professor of Plastic Reconstructive Surgery, Chang Gung Memorial Hospital, Taiwan"
+    description = "David Chuang started his microsurgical career in 1984 as a peripheral nerve microsurgeon and was appointed Professor in 2000. Between 1985 and 2018, Professor Chuang performed over 2000 brachial plexus explorations and reconstructions and over 1000 free functioning muscle transfers in the upper limb, lower limb and head and neck.  He is also renowned for operating on obstetric palsy, facial paralysis, compression neuropathy, peripheral nerve injury and peripheral nerve tumours. He is a disciple of Dr. Samuel Noordhoff, Professor Fu-Chan Wei, Julia Terzis, Hanno Millesi, Algimantas Narakas and Toru Kondo. Professor Chuang has developed classifications of brachial plexus injures, radial nerve injuries, post-paralysis facial synkinesis, and traction avulsion amputations of the limbs.  He has pioneered techniques such as the gracilis myocutaneous flap, free functioning muscle transfer for facial nerve reconstruction, surgical treatment of thoracic outlet syndrome, subfascial anterior transfer for cubital tunnel syndrome, nerve transfers for irreparable brachial plexus injuries, contralateral C7 transfer with free vascularised ulnar nerve graft and intercostal to musculocutaneous nerve transfer. Professor Chuang also has a prolific track record in research. He reviews for multiple journals including PRS and JPRAS, has delivered many lectures in Asia, Europe, North and South America, and serves as one of the teachers for the internationally renowned CGMH Fellowship Training Program.  He is past President of the Taiwan Plastic Surgical Association, the Taiwan Society for Surgery of the Hand, the Taiwan Society for Reconstructive Microsurgery and the World Society for Reconstructive Microsurgery. In 2019, Professor Chuang was awarded the prestigious Harry J. Buncke Lectureship from the American Society for Reconstructive Microsurgery."
+    img = "images/chuang.jpg"
+
+  [[params.team.item]]
+    name = "Jan Fridén"
+    position = "Head of the Department of TetraHand and Professor of Hand Surgery at the Swiss Paraplegic Centre in Nottwil, Switzerland"
+    description = "Jan is one of the leading authorities on Tetrahand Surgery. Following medical school, he completed his PhD on muscle anatomy in Sweden and underwent further training at the University of California, where he was then appointed visiting professor. From 2005-2014, he led the National Tetraplegia Hand Surgery Unit in Gothenburg, Sweden and since 2011, has led the National Tetrahand Service at the Swiss Paraplegic Centre, the leading tetrahand unit in the world. For more than 30 years Jan Fridén has researched muscle structure and function with a focus on experimental and clinical studies of reconstructive tendon transfer surgery.  He described the architecture of the most suitable donor muscles in many procedures and developed new strategies to reconstruct motor function in tetraplegia and peripheral nerve injuries. His research has also provided primary data on the mechanical properties at micro and macro level of upper extremity muscles. The resulting muscle mechanics database ads surgeons in their decision-making process for reconstruction of arm and hand motions and for correction of deformities secondary to spinal cord and peripheral nerve injuries as well as spasticity after brain injuries. Professor Fridén has published over 200 papers and has been an invited speaker at over ten international meetings since 2015.  He has been a Ph.D. supervisor since 1990, advising on theses internationally. He is the organiser of the Annual European Course in Tetraplegia Upper Extremity Reconstruction and Rehabilitation, approaching it’s 10th edition.  He was also the president and organiser of the Tetraplegia Upper Extremity Reconstruction and Rehabilitation World Congress in 2018. In 2016 Professor Fridén was awarded the Ludwig Guttman Prize for outstanding clinic research, named after the pioneer of the Paralympic Games which began here at Stoke Mandeville."
+    img = "images/friden.jpg"
+
+  [[params.team.item]]
+    name = "S Raja Sabapathy"
+    position = "Chairman, Division of Plastic, Hand & Reconstructive Microsurgery, Ganga Hospital, Coimbatore, India"
+    description = "Dr. Sabapathy had a brilliant academic career passing out as the Best Outgoing Student from Stanley Medical College, Madras.  He trained in Plastic Surgery in  Chennai, Stoke Mandeville and Canniesburn in  UK and at Louisville, USA.  The efforts of the Plastic and Orthopaedic Departments of Ganga Hospital, a 500 bed tertiary referral centre for Plastic Surgery and Orthopaedics, revolutionized trauma care in the country and have been followed as a model in many countries. This has led to many invitations for eponymous lectures and has delivered 30 orations, chief among them being the Douglas Lamb lecture at the Royal College of Surgeons, Boonzaire lecture at the South African Hand Society, Sushruta Guha Professorship of the Royal College of Surgeons, Edinburgh.  He was conferred the Hon Fellowship (Hon FRCS) of the Royal College of Surgeons and Physicians of Glasgow, Hon Membership of British, South African Hand Societies and Serbian Microsurgery society. He has been the Visiting Professor in Mayo Clinic, Yale University, Michigan University, Washington University, Singapore, Malaysia, Sri Lanka and Bangladesh.  He has co-authored a Microsurgery Practice Manual and has published 138 papers and 47 book chapters.  2028 surgeons from 68 countries have visited the unit. He has also taken administrative positions and has been the Organizing Chairman of the Triennial Congress of the International Hand Surgery congress (2013) and the World Microsurgery congress (2015).  At present he is the President Elect of the Asian Pacific Federation of Societies for Surgery of the Hand (APFSSH), Secretary General Elect of the International Federation of Societies for Surgery of the Hand (IFSSH).  He has held the presidencies of the Association of Plastic Surgeons of India, Indian Society for Surgery of the Hand, Indian Society for Reconstructive Microsurgery and Brachial Plexus Surgery Group of India."
+    img = "images/sabapathy.jpg"
+
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Register your place"
+  description = "To join us at the Bucks Hand Symposium 2020 please email us at <a href='mailto:bht.handsymposium@nhs.net?cc=&subject=Reservation for Hand Syposium 2020&body=Which days would you like to attend?%0D%0A%0D%0AWould you like to attend dinner on the evening of the 20th May at Balliol College, Oxford? If so, what dietary requirements do you have?' target=''>bht.handsymposium@nhs.net</a>"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  # github = "#"
+  # twitter = "#"
+  # facebook = "#"
+  # vine = "#"
+  # linkedin = "#"
+  # instagram = "#"
